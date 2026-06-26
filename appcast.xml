@@ -5,21 +5,21 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
-            <title>1.8.1</title>
-            <pubDate>Fri, 26 Jun 2026 20:55:33 +0000</pubDate>
-            <sparkle:version>1.8.1</sparkle:version>
-            <sparkle:shortVersionString>1.8.1</sparkle:shortVersionString>
+            <title>1.8.2</title>
+            <pubDate>Fri, 26 Jun 2026 21:14:20 +0000</pubDate>
+            <sparkle:version>1.8.2</sparkle:version>
+            <sparkle:shortVersionString>1.8.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
                 <h3>Fixed</h3>
                 <ul>
-                    <li><strong>Microphone access in notarized builds.</strong> Dictation could not access the microphone in Developer&nbsp;ID / notarized builds even when Microphone was granted in System Settings. The hardened runtime requires the audio-input entitlement, which was missing — now added.</li>
+                    <li><strong>Microphone permission on macOS.</strong> Dictation can now request microphone access — the system permission prompt appears and the grant registers correctly. (Previously no prompt ever showed and access was stuck off.)</li>
                 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.8.1/Vox-1.8.1.zip"
-                sparkle:edSignature="UtXOdsIQYGjTnOe7/G24ziDtR40Zd6fz09uMZpYkDs9TYr5rPvdj2TfjwflTAi/Wi49Hy8MlKvFADmj9O/a7CA=="
-                length="11833531"
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.8.2/Vox-1.8.2.zip"
+                sparkle:edSignature="N8DAZaSA4sA/FHCM0cmXvqe+9ySyxXyym7B5mhG6/ZilbDuCNLicTUs029pa944gl5DmxQnsuX8bqm3pjrrRCg=="
+                length="11832494"
                 type="application/octet-stream" />
         </item>
     </channel>
