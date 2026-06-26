@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Vox</title>
+        <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
+        <language>en</language>
+        <item>
+            <title>1.8.1</title>
+            <pubDate>Fri, 26 Jun 2026 20:55:33 +0000</pubDate>
+            <sparkle:version>1.8.1</sparkle:version>
+            <sparkle:shortVersionString>1.8.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Fixed</h3>
+                <ul>
+                    <li><strong>Microphone access in notarized builds.</strong> Dictation could not access the microphone in Developer&nbsp;ID / notarized builds even when Microphone was granted in System Settings. The hardened runtime requires the audio-input entitlement, which was missing — now added.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.8.1/Vox-1.8.1.zip"
+                sparkle:edSignature="UtXOdsIQYGjTnOe7/G24ziDtR40Zd6fz09uMZpYkDs9TYr5rPvdj2TfjwflTAi/Wi49Hy8MlKvFADmj9O/a7CA=="
+                length="11833531"
+                type="application/octet-stream" />
+        </item>
+    </channel>
+</rss>
