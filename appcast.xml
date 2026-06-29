@@ -5,6 +5,41 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.8.7</title>
+            <pubDate>Mon, 29 Jun 2026 19:44:53 +0000</pubDate>
+            <sparkle:version>1.8.7</sparkle:version>
+            <sparkle:shortVersionString>1.8.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Fixed</h3>
+                <ul>
+                    <li><strong>Crash on rapid hotkey presses.</strong> Pressing the speak hotkey again while Vox was still working could crash the app. A new press now cleanly interrupts and replaces the one in progress.</li>
+                    <li><strong>More reliable text capture.</strong> Selected-text capture is more robust in browsers and other apps, with a smarter clipboard fallback that no longer reads stale or unrelated clipboard content when nothing is selected.</li>
+                </ul>
+                <h3>Improved</h3>
+                <ul>
+                    <li><strong>Faster, more accurate transcript cleanup.</strong> The Fast “Clean up transcript” tier downloads and runs an on-device punctuation model on first use, with an instant rule-based fallback so it never blocks.</li>
+                    <li><strong>Dictation download progress.</strong> The Parakeet dictation model now shows a real progress bar with a working Cancel button in Settings → Listening.</li>
+                    <li><strong>Capture diagnostics.</strong> Settings → Debug now shows exactly why a capture succeeded or failed (per-strategy results and timings).</li>
+                    <li><strong>AirPods audio quality.</strong> Opening Settings no longer holds the microphone open, so Bluetooth output stays at full quality.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.8.7/Vox-1.8.7.zip"
+                sparkle:edSignature="lQ0WkEJ9OIrbK0eBv5zqkohunVKIpAxDbl4FNCXPGq+Jw+UBjH0JXli4MkpRCDiHO/dNejK4NKGMsAkG8ceXAA=="
+                length="11886688"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.8.7/Vox-1.8.2-to-1.8.7.delta"
+                    sparkle:version="1.8.7"
+                    sparkle:deltaFrom="1.8.2"
+                    sparkle:edSignature="AMncuJf+SPinlgwhAFUTfAnJ92K2DzM8v8Q5s8dMwa4CfoIZvAgMvtJvhxCFwhd03B/VQvWb5fXfT26UO8aqDw=="
+                    length="1294790"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.8.2</title>
             <pubDate>Fri, 26 Jun 2026 21:14:20 +0000</pubDate>
             <sparkle:version>1.8.2</sparkle:version>
