@@ -5,6 +5,46 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.9.3</title>
+            <pubDate>Tue, 30 Jun 2026 19:44:00 +0000</pubDate>
+            <sparkle:version>1.9.3</sparkle:version>
+            <sparkle:shortVersionString>1.9.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>New</h3>
+                <ul>
+                    <li><strong>Long passages now read all the way through.</strong> Selections that used to fail with “Synthesis failed” are split into natural chunks and start playing while the rest is still being prepared, so audio begins almost immediately.</li>
+                </ul>
+                <h3>Fixed</h3>
+                <ul>
+                    <li><strong>Reading aloud in Safari no longer disturbs your clipboard.</strong> Vox now captures your Safari selection directly, even on the very first try, instead of falling back to copy-and-paste.</li>
+                    <li><strong>Closing the player mid-synthesis makes it stay closed.</strong> The floating player no longer pops back open (or shows a raw model name) when you dismiss it while a long passage is still being prepared.</li>
+                    <li><strong>A calmer launch.</strong> Vox no longer force-opens System Settings on startup — it shows a gentle menu-bar prompt and only opens Settings when you ask to grant access.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.9.3/Vox-1.9.3.zip"
+                sparkle:edSignature="VmX9KwvJFAUYwVx05evoJBWL+PYwvpBzV6zYqzfvYXFANbUbBwssTWGSJb0EUmwp8hL3SpCMrf/mcrG8XRpQBQ=="
+                length="11904778"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.9.3/Vox-1.8.7-to-1.9.3.delta"
+                    sparkle:version="1.9.3"
+                    sparkle:deltaFrom="1.8.7"
+                    sparkle:edSignature="L8CWwBlaj152vhxmj6JbO976jUZRMsiOXSjDV5hujHEVn6vPcG7mywUN0Q1c2y21Eb78Ju78F1UxYiyDMidhDQ=="
+                    length="1111234"
+                    type="application/octet-stream" />
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.9.3/Vox-1.8.2-to-1.9.3.delta"
+                    sparkle:version="1.9.3"
+                    sparkle:deltaFrom="1.8.2"
+                    sparkle:edSignature="bX9tSZ5vEU2j/iAuetgJjDaWegujJNvkbLIEiP7umo+Y6RDcg7tDCLD18zO1HA6oZoQnOTZnzKTTFqf68WOwAw=="
+                    length="1268962"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.8.7</title>
             <pubDate>Mon, 29 Jun 2026 19:44:53 +0000</pubDate>
             <sparkle:version>1.8.7</sparkle:version>
