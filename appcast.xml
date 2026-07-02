@@ -5,6 +5,40 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.10.0</title>
+            <pubDate>Thu, 02 Jul 2026 20:03:20 +0000</pubDate>
+            <sparkle:version>1.10.0</sparkle:version>
+            <sparkle:shortVersionString>1.10.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>New</h3>
+                <ul>
+                    <li><strong>Drive Vox from Shortcuts and Siri.</strong> The “Speak Selection” and “Speak Text” actions now work reliably — no more “Shortcuts couldn’t communicate with the app.” Vox runs the action in the background, so the app you’re working in keeps focus.</li>
+                    <li><strong>New “Listen and Transcribe” action.</strong> Start dictation from a Shortcut: Vox records, transcribes on-device, and hands the text back to the Shortcut so you can pipe it anywhere — notes, messages, automations. It stops automatically when you stop talking.</li>
+                </ul>
+                <h3>Fixed</h3>
+                <ul>
+                    <li><strong>A broken speech-model download no longer sticks dictation at “Model not ready.”</strong> Vox now detects an incomplete model on disk, cleans it up, and re-downloads it automatically — and a Download button appears on the model card so you’re never stuck.</li>
+                    <li><strong>Switching the Listening latency tier is smoother.</strong> The new tier loads immediately after switching, and previously downloaded tiers stay cached so switching back is instant.</li>
+                    <li>Clearer error messages when a Shortcut can’t run (model still downloading, microphone permission needed).</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.10.0/Vox-1.10.0.zip"
+                sparkle:edSignature="xflGwN6sHVku5wTwinX1Cu2Il4YOgDxJMudwIVy1w+HsC2jlgGslYi6Uf3S3r/cs3R/M7lG+vL8cNkAxfmfmBA=="
+                length="11914304"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.10.0/Vox-1.9.3-to-1.10.0.delta"
+                    sparkle:version="1.10.0"
+                    sparkle:deltaFrom="1.9.3"
+                    sparkle:edSignature="VkBUAgCZRPCicfCVo7P9YtOWtajSaEiFWT5fBLGMYL+uDmX19/At65RUiMlJ+REh5OW6AwIEz4I8TaqnlYFrAg=="
+                    length="1116198"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.9.3</title>
             <pubDate>Tue, 30 Jun 2026 19:44:00 +0000</pubDate>
             <sparkle:version>1.9.3</sparkle:version>
