@@ -5,6 +5,38 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.11.0</title>
+            <pubDate>Fri, 03 Jul 2026 18:20:00 +0000</pubDate>
+            <sparkle:version>1.11.0</sparkle:version>
+            <sparkle:shortVersionString>1.11.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>New</h3>
+                <ul>
+                    <li><strong>User Dictionary.</strong> Teach Vox your names, jargon, and spoken shortcuts. The new Dictionary tab in Settings lets you add words and replacements with a live preview — say “my work email” and the address lands in your text; technical terms come out spelled and capitalized right, on every accuracy setting. Sounds-alike matching fixes common mishearings automatically, and your dictionary imports/exports as CSV or JSON.</li>
+                </ul>
+                <h3>Fixed</h3>
+                <ul>
+                    <li><strong>No more repeated update prompts.</strong> If Vox kept offering you the same update after installing it, this release cures it for good.</li>
+                    <li>Internal test-reliability fixes that make every future release better-verified.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.11.0/Vox-1.11.0.zip"
+                sparkle:edSignature="luI/t4QhYjVqgfPVV5rXtUFUFpNVvj/YU6aDO9L7eQQZ4zHSgCkuZ15Qiu+Eak7B9CAH+sr4db6JhyiexQh4BQ=="
+                length="12043533"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.11.0/Vox-1.9.3-to-1.11.0.delta"
+                    sparkle:version="1.11.0"
+                    sparkle:deltaFrom="1.9.3"
+                    sparkle:edSignature="bt27vKpGcb/gGmcVYkjorCKZUJYjqYetUrwiIbZTnAQG8zC3jKeo2i5jbZIIo47E0S80me4TzDhvDiUAjbswBA=="
+                    length="1374182"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.10.0</title>
             <pubDate>Thu, 02 Jul 2026 20:03:20 +0000</pubDate>
             <sparkle:version>1.10.0</sparkle:version>
