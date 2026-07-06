@@ -5,6 +5,40 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.12.1</title>
+            <pubDate>Mon, 06 Jul 2026 18:35:32 +0000</pubDate>
+            <sparkle:version>1.12.1</sparkle:version>
+            <sparkle:shortVersionString>1.12.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Improvements</h3>
+                <ul>
+                    <li>Under-the-hood build and reliability improvements. No changes to how Vox works day to day.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.12.1/Vox-1.12.1.zip"
+                sparkle:edSignature="3S3kJ8ePAd8zJrsTBuMR+2eXsKOEneR5Xuv0BpjMcmTC3M4Y6xVCcwHQqWJxO9O6ShpRfb/49lcOfIhtG0w6CA=="
+                length="12065373"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.12.1/Vox-1.12.0-to-1.12.1.delta"
+                    sparkle:version="1.12.1"
+                    sparkle:deltaFrom="1.12.0"
+                    sparkle:edSignature="K5LnaUfiYn0tQCTxqNfNp+BiOjuNJOgYJsh2FqmJVPowQv6Y0WK0FdrLYdOuAYMoDxLWbtQRD+mZsCtSkYBcDQ=="
+                    length="15946"
+                    type="application/octet-stream" />
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.12.1/Vox-1.11.0-to-1.12.1.delta"
+                    sparkle:version="1.12.1"
+                    sparkle:deltaFrom="1.11.0"
+                    sparkle:edSignature="JEWOpkzS3MLXjNrQ6Q73nODmPSvYnfPLninaBXnWbpJdzCcibqyMESQueKgcV1U4gO+5rsB8Pm7EjqJ570DdAA=="
+                    length="1168146"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.12.0</title>
             <pubDate>Mon, 06 Jul 2026 17:45:13 +0000</pubDate>
             <sparkle:version>1.12.0</sparkle:version>
