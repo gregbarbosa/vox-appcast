@@ -5,6 +5,33 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.12.0</title>
+            <pubDate>Mon, 06 Jul 2026 17:45:13 +0000</pubDate>
+            <sparkle:version>1.12.0</sparkle:version>
+            <sparkle:shortVersionString>1.12.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>New</h3>
+                <ul>
+                    <li><strong>Rewrite styles for dictation.</strong> Just talk — Vox now cleans up what you said. It drops filler words (“um”, “you know”), tidies false starts, and applies your self-corrections (“Tuesday — no, Wednesday” becomes “Wednesday”). Pick how it shapes the result: <em>Clean</em> to just neaten it up, or <em>Email</em>, <em>Message</em>, <em>Notes</em>, and <em>Prose</em> to format for where it’s going — or keep <em>Verbatim</em> (the default) for exactly what you said. It runs on-device with Apple Intelligence, so nothing leaves your Mac. Choose a style in Settings → Listening, or from the new wand button on the recording pill.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.12.0/Vox-1.12.0.zip"
+                sparkle:edSignature="DJtuhVTd0acGbG2yfxODL9aZVtmNc9d7m//RmHZoWu7/2xLe2CB5dOv8UnpEl0ad5/v72gSMUf6GJcR6X/R9DQ=="
+                length="12066696"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.12.0/Vox-1.11.0-to-1.12.0.delta"
+                    sparkle:version="1.12.0"
+                    sparkle:deltaFrom="1.11.0"
+                    sparkle:edSignature="wLczJvzfy4KjXrJ9rgdTEjmaUsGbT9pstFVn2Xa6V7N2sSxO2bqUdhDjHdUPy4AaFe9p+QY7JU96DAuJxGXxBA=="
+                    length="1167270"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.11.0</title>
             <pubDate>Fri, 03 Jul 2026 18:20:00 +0000</pubDate>
             <sparkle:version>1.11.0</sparkle:version>
