@@ -5,6 +5,45 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.12.5</title>
+            <pubDate>Wed, 08 Jul 2026 17:12:14 +0000</pubDate>
+            <sparkle:version>1.12.5</sparkle:version>
+            <sparkle:shortVersionString>1.12.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Redesigned dictation pill</h3>
+                <ul>
+                  <li>The recording pill now <strong>morphs as you dictate</strong> — growing to show your live transcript alongside a scrolling waveform, then settling back to a compact capsule when you're done.</li>
+                  <li>It now renders in <strong>Liquid Glass</strong> that adapts to your system appearance, matching the playback mini-player.</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                  <li>Spoken audio now shows the correct play/pause state and accurate elapsed time in Control Center.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.12.5/Vox-1.12.5.zip"
+                sparkle:edSignature="qoMsCIufETcgBgG51KsYTti+L8JON1pYaKWBVY2OjofHY63DtYybR/ka5SFwV99llNwyZfubg4Gt0RSCx1O4Dw=="
+                length="12093297"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.12.5/Vox-1.12.1-to-1.12.5.delta"
+                    sparkle:version="1.12.5"
+                    sparkle:deltaFrom="1.12.1"
+                    sparkle:edSignature="f0uuPbt6urADzyOs2U/5UIabj628aeZ94CDje/2sPl7mhadF/dINWJzmvkgUieGAjFa0i1MMSubindWSooW8Dw=="
+                    length="1341650"
+                    type="application/octet-stream" />
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.12.5/Vox-1.12.0-to-1.12.5.delta"
+                    sparkle:version="1.12.5"
+                    sparkle:deltaFrom="1.12.0"
+                    sparkle:edSignature="Y1DQReQOCu9MNkTDgfX6zhIdv+MeMrzdDaT3Oh/FD6l64rmsiypM288JgVwJP4kxYn416TKVztYKbj/gt+yfAw=="
+                    length="1341694"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.12.1</title>
             <pubDate>Mon, 06 Jul 2026 18:35:32 +0000</pubDate>
             <sparkle:version>1.12.1</sparkle:version>
