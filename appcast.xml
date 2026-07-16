@@ -5,6 +5,38 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.13.0</title>
+            <pubDate>Thu, 16 Jul 2026 16:34:48 +0000</pubDate>
+            <sparkle:version>1.13.0</sparkle:version>
+            <sparkle:shortVersionString>1.13.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>✨ The Liquid Glass listening experience</h3>
+                <p>Vox's dictation pill is reborn in Liquid Glass. Speak, and your words rise through a live teleprompter inside a single living pane of glass — the top line softly fading as new lines flow in. Stop, and the whole pill folds down in one continuous, glass-smooth motion: your text holds for a beat, then gracefully dissolves as the pill settles. No seams, no jumps — one fluid gesture, rendered entirely on-device.</p>
+                <ul>
+                  <li><strong>Live teleprompter</strong> that scrolls naturally as you dictate</li>
+                  <li><strong>One seamless collapse</strong> — no flicker, no snap</li>
+                  <li><strong>A fuller, livelier waveform</strong> while you speak</li>
+                  <li><strong>Refined Listening settings</strong> — Toggle Dictation now leads</li>
+                </ul>
+                <p>Beautiful, fast, and 100% on your Mac.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.13.0/Vox-1.13.0.zip"
+                sparkle:edSignature="p2XsxOr6ScFeIGfWx2/KE0Kn+fyMlSjDC4Dy7a8ltWxPDNT2M1YAI958YgYr5cOEIpJWrVVVGNso6X0chvHIBQ=="
+                length="12118630"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.13.0/Vox-1.12.5-to-1.13.0.delta"
+                    sparkle:version="1.13.0"
+                    sparkle:deltaFrom="1.12.5"
+                    sparkle:edSignature="Tu5PDQ2C+eV1CA2GVWBFtWCM1bumg8zHrTRbEh1JCd8VigROmL3uIX+7tBYk3xYcbMGKetaS22+fp1iIUUcWBg=="
+                    length="1199294"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.12.5</title>
             <pubDate>Wed, 08 Jul 2026 17:12:14 +0000</pubDate>
             <sparkle:version>1.12.5</sparkle:version>
