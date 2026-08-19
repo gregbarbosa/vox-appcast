@@ -5,6 +5,38 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.14.0</title>
+            <pubDate>Wed, 19 Aug 2026 22:39:33 +0000</pubDate>
+            <sparkle:version>1.14.0</sparkle:version>
+            <sparkle:shortVersionString>1.14.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Do more with what you just said</h3>
+                <p>Everything Vox has spoken or heard now sits one click away in the menu bar, and every entry knows what it is. Open Recent and each row carries its own actions: play it back, copy it, or drop it straight into whatever app you are working in.</p>
+                <ul>
+                  <li><strong>Actions on every recent entry</strong> — Play, Copy, and Insert at Cursor</li>
+                  <li><strong>Your own voice, played back</strong> — a dictation replays the recording Vox made, instead of reading your words back in a synthetic voice</li>
+                  <li><strong>Instant replay</strong> — playing something again uses the recording Vox already has, with no model to load and no waiting</li>
+                  <li><strong>See what each entry is</strong> — a speaker icon for what Vox spoke, a microphone for what Vox heard</li>
+                  <li><strong>Fixed</strong> — the floating player no longer opens clipped below the bottom of the screen</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.14.0/Vox-1.14.0.zip"
+                sparkle:edSignature="66MA6cbOV+OHcK/r3BLvjhjZguGJO6YVft5qRbPd7D9zv14arCRylraK1iwUbx1dhcYDsYEu8GqPrTFWxI/XCg=="
+                length="12092696"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.14.0/Vox-1.13.0-to-1.14.0.delta"
+                    sparkle:version="1.14.0"
+                    sparkle:deltaFrom="1.13.0"
+                    sparkle:edSignature="WGfDKMtrk+4D76ALTM0FBt9FhZTZy9tgrAw20gW1af6cotIj0TUloF9BzIYrwOQop3aGCOexVxbluGLSuuJNAw=="
+                    length="1187234"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.13.0</title>
             <pubDate>Thu, 16 Jul 2026 16:34:48 +0000</pubDate>
             <sparkle:version>1.13.0</sparkle:version>
