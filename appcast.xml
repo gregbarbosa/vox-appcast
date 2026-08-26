@@ -5,6 +5,41 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.15.0</title>
+            <pubDate>Wed, 26 Aug 2026 14:46:09 +0000</pubDate>
+            <sparkle:version>1.15.0</sparkle:version>
+            <sparkle:shortVersionString>1.15.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Vox downloads the voice for you</h3>
+                <ul>
+                    <li>The first time you use a voice that is not on your Mac yet, Vox downloads it and shows you the download. Before this, Vox refused to speak and the hotkey did nothing on a new install.</li>
+                    <li>The download appears in the floating pill with the voice name, a progress bar, and the time remaining. Vox shows the time only when it can measure it.</li>
+                    <li>The pill has a cancel button. Cancel stops the transfer and removes what it already downloaded.</li>
+                </ul>
+                <h3>See and manage what Vox stores</h3>
+                <ul>
+                    <li>Settings has a Storage tab. It lists every file Vox stores, with the real size on disk and a total.</li>
+                    <li>You can delete a model. Vox asks you to confirm, and names the model and the space you get back. If you delete the voice you use now, Vox tells you it must download that voice again.</li>
+                    <li>Vox no longer downloads model files it cannot use. Every model you download from now on costs what it should.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.15.0/Vox-1.15.0.zip"
+                sparkle:edSignature="5gKK8qd5byNdcEJm3qWmG7tr6lNnwtrerog10DE1iN30PXmu9i8VZkXtnVxeXN9737COcdYGBmbNlcOnG+lNBQ=="
+                length="12180495"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.15.0/Vox-1.14.0-to-1.15.0.delta"
+                    sparkle:version="1.15.0"
+                    sparkle:deltaFrom="1.14.0"
+                    sparkle:edSignature="So9cBqiCLTT+ygYEyqoK/nZ4E22OYVeRIvu+VLt+Skfx0BiugR67wiWQGK1nX4FAefnDy7rivpQBd14K2tx2AA=="
+                    length="1345322"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.14.0</title>
             <pubDate>Wed, 19 Aug 2026 22:39:33 +0000</pubDate>
             <sparkle:version>1.14.0</sparkle:version>
