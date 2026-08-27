@@ -5,6 +5,34 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.17.0</title>
+            <pubDate>Thu, 27 Aug 2026 17:00:00 +0000</pubDate>
+            <sparkle:version>1.17.0</sparkle:version>
+            <sparkle:shortVersionString>1.17.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Honest sizes for the speech-recognition model</h3>
+                <ul>
+                    <li>The Storage tab shows the speech-recognition model as one row with the total size of every latency setting you downloaded. The row expands to show each setting with its own size and its own Delete button.</li>
+                    <li>The row now tells you the truth about disk space. It used to report the size of every latency setting but delete only the one you use, so you got back about a third of the space Vox named. Each row now frees exactly the space it names.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.17.0/Vox-1.17.0.zip"
+                sparkle:edSignature="nyWRuYLfD2sdG8VyDzvF93bVYCCDriFeJ7dwXVG9e2WysTqLkxYqAwIT15mPHCeZxFM54UF8wVBqCUy2ZuoiBg=="
+                length="12210800"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.17.0/Vox-1.16.0-to-1.17.0.delta"
+                    sparkle:version="1.17.0"
+                    sparkle:deltaFrom="1.16.0"
+                    sparkle:edSignature="HOuecE/5YY3A9MsVMKfjKsn+BKqQAytsofFL+DZwtkkV/TVIF+FEIFb3vJmyK8USrArFp691F9Ut/Zor+mCRCg=="
+                    length="1082394"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.16.0</title>
             <pubDate>Thu, 27 Aug 2026 02:10:00 +0000</pubDate>
             <sparkle:version>1.16.0</sparkle:version>
