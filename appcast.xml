@@ -5,6 +5,34 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.18.0</title>
+            <pubDate>Sat, 05 Sep 2026 00:34:12 +0000</pubDate>
+            <sparkle:version>1.18.0</sparkle:version>
+            <sparkle:shortVersionString>1.18.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>What's new</h3>
+                <ul>
+                    <li><strong>Voz speech-recognition engine (opt-in)</strong> — on-device transcription on the Apple Neural Engine: ~5&times; faster on long dictations than the MLX default, at a 466&nbsp;MB download (vs 2.3&nbsp;GB), with matching accuracy. Pick it in Settings &rarr; Listening &rarr; Engine; the default engine is unchanged.</li>
+                    <li>Voz is powered by <a href="https://desertant.com">Desert Ant Labs</a> and credited in Settings &rarr; About.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.18.0/Vox-1.18.0.zip"
+                sparkle:edSignature="jTGW6lE220PEI7XVe8tErcJsJbETd4oVsUd0SyHTfVRM62y6HiqWKj4Lix3WQMlOqiMB4emnlhQREqoLuKyoAg=="
+                length="12409775"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.18.0/Vox-1.17.0-to-1.18.0.delta"
+                    sparkle:version="1.18.0"
+                    sparkle:deltaFrom="1.17.0"
+                    sparkle:edSignature="msjivxPEIoerSVKPKYx2FLD3ZmFoA/jRD5LQtPgX36S6HhOGZE8kOR9WwF+gWgzO4zrqXWWPD1WAvUaPDvxlBg=="
+                    length="1369734"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.17.0</title>
             <pubDate>Thu, 27 Aug 2026 17:00:00 +0000</pubDate>
             <sparkle:version>1.17.0</sparkle:version>
