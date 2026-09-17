@@ -5,6 +5,35 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.19.0</title>
+            <pubDate>Thu, 17 Sep 2026 14:02:20 +0000</pubDate>
+            <sparkle:version>1.19.0</sparkle:version>
+            <sparkle:shortVersionString>1.19.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>What's new</h3>
+                <ul>
+                    <li><strong>Kokoro 82M (Neural Engine) — new TTS engine (opt-in)</strong> — the same Kokoro voices through a 7-stage Core ML pipeline running entirely on the Apple Neural Engine: <strong>19&ndash;22.6&times; realtime</strong>, <strong>75&ndash;850&nbsp;ms</strong> time-to-first-chunk, stable under heavy system load. English launch set (28 voices, US + UK); ~95&nbsp;MB download; native generation-speed knob. Pick it in Settings &rarr; Voice &rarr; Engine, right under &ldquo;Kokoro 82M&rdquo; — the default engine is unchanged.</li>
+                    <li><strong>Faster Kokoro on the default engine</strong> — the GPU vectorization pass drops warm synthesis to <strong>5&ndash;8&times; faster</strong> than before, approaching heart-nano speed at heart quality.</li>
+                    <li>Fixed a cache bug that re-downloaded 9&nbsp;MB of phonemizer data on every model load for fresh installs (both engines benefit).</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.19.0/Vox-1.19.0.zip"
+                sparkle:edSignature="XoSBlP0LxE357DhvW0ejCj5jtNCgubupoT54Gb7WqerQBBuiPJy2jcgrGkOGqn/w0I9nqGamNoxBTac48zS2Dg=="
+                length="12528128"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.19.0/Vox-1.18.0-to-1.19.0.delta"
+                    sparkle:version="1.19.0"
+                    sparkle:deltaFrom="1.18.0"
+                    sparkle:edSignature="c9se62cg5z9qIkGgkOrXB8iZqMEpXf0RJjwIBTR8IN3+Ucxjaki/2icHOrV1Bit5NK2q9yYd0hIVhZFjrGllAQ=="
+                    length="1350254"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.18.0</title>
             <pubDate>Sat, 05 Sep 2026 00:34:12 +0000</pubDate>
             <sparkle:version>1.18.0</sparkle:version>
