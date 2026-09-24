@@ -5,6 +5,35 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.19.2</title>
+            <pubDate>Thu, 24 Sep 2026 13:40:03 +0000</pubDate>
+            <sparkle:version>1.19.2</sparkle:version>
+            <sparkle:shortVersionString>1.19.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>What's new</h3>
+                <ul>
+                    <li><strong>Fixed: the playback-speed picker in the floating player.</strong> It no longer detaches from the card, floats off the player, or closes after a few taps — it now stays anchored, dismisses on outside tap, and reads clearly on its own surface.</li>
+                    <li><strong>Kokoro 82M (Neural Engine) audio parity:</strong> loudness now matches the default MLX engine (measured &plusmn;0.05&nbsp;dB) and the low-frequency rumble/DC artifact at chunk joins is gone.</li>
+                    <li>Under the hood: a full root-cause investigation of the Neural Engine's residual tonal character (documented in the repo), agent-tooling and window-capture improvements for design review, and Swift 6 language-mode cleanups.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.19.2/Vox-1.19.2.zip"
+                sparkle:edSignature="KtS4cGwb7Nv/OglxM+Wg8o+S1aWe2G9f6v1j1sX5E9Ff2jrpFX+fdSM5PN7U+t874o6VX62F+ENX2v5meRznAQ=="
+                length="12532537"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.19.2/Vox-1.19.0-to-1.19.2.delta"
+                    sparkle:version="1.19.2"
+                    sparkle:deltaFrom="1.19.0"
+                    sparkle:edSignature="cMwAN2haGZfADtQandQmHCGfBHfuqYRKl5SVjQv0eiWXZNcen9upKo9ZAedna+2VZx0VfnxGcrKG367lr9/8Bg=="
+                    length="1023582"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.19.0</title>
             <pubDate>Thu, 17 Sep 2026 14:02:20 +0000</pubDate>
             <sparkle:version>1.19.0</sparkle:version>
