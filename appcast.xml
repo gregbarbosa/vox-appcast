@@ -5,6 +5,37 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.19.3</title>
+            <pubDate>Sat, 26 Sep 2026 16:35:46 +0000</pubDate>
+            <sparkle:version>1.19.3</sparkle:version>
+            <sparkle:shortVersionString>1.19.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>What's new</h3>
+                <ul>
+                    <li><strong>The dictation pill grows one line at a time.</strong> It starts at the height of one text line and grows by one line when a word wraps, up to 4 lines. Then the text scrolls. Words on screen do not move.</li>
+                    <li><strong>Words end solid.</strong> Each new word fades in, then shows in the same color as the other words. The last word no longer stays grey.</li>
+                    <li><strong>Better contrast in Dark Mode.</strong> The pill text now passes 4.5:1 contrast on a light backdrop.</li>
+                    <li>Fixed: the waveform no longer draws under the button at the right end of the pill. The button is easier to click.</li>
+                    <li>The Settings window title now shows the selected tab.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.19.3/Vox-1.19.3.zip"
+                sparkle:edSignature="y5hlyspDIe1KRC5kfSG+MrTf6re0i1wpFPiaweShUQbw5O1g45RNc/g+Ils82krNAlw+IZZb27AvbbQG6zn2BA=="
+                length="12544621"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.19.3/Vox-1.19.2-to-1.19.3.delta"
+                    sparkle:version="1.19.3"
+                    sparkle:deltaFrom="1.19.2"
+                    sparkle:edSignature="XfCWo/tVEnVJNNvPlI/pSkr9+3bKRQ/TvZ6AWCjZBsP29XqhyiA11SITWtsfM3tcpvUhr/XypAwM/o+u/BYBDQ=="
+                    length="1065686"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.19.2</title>
             <pubDate>Thu, 24 Sep 2026 13:40:03 +0000</pubDate>
             <sparkle:version>1.19.2</sparkle:version>
