@@ -5,6 +5,33 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.19.4</title>
+            <pubDate>Fri, 02 Oct 2026 21:19:43 +0000</pubDate>
+            <sparkle:version>1.19.4</sparkle:version>
+            <sparkle:shortVersionString>1.19.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>What's new</h3>
+                <ul>
+                    <li><strong>Beta updates.</strong> Settings &gt; General &gt; Software Update has a new setting, "Get beta updates". It is off by default. Turn it on to get early versions of Vox before they are released to all users. A beta can be less stable.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.19.4/Vox-1.19.4.zip"
+                sparkle:edSignature="XyvxP2WNKDhppKqNWsHkXnI9Vr5wS40Uflwzc9RGUd+ZH2u/YuDJLguTyJn3HWiUm3QpFDG+7U97SN8UevlUCA=="
+                length="12545462"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.19.4/Vox-1.19.3-to-1.19.4.delta"
+                    sparkle:version="1.19.4"
+                    sparkle:deltaFrom="1.19.3"
+                    sparkle:edSignature="+XNyvV7+XkvEieGliGRGygNNXJvzgB+Psj0r7d8ve1U9313fNua2dQEOHRCdcYtAcWkkH5YbytoggcY0egq3Bw=="
+                    length="855882"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.19.3</title>
             <pubDate>Sat, 26 Sep 2026 16:35:46 +0000</pubDate>
             <sparkle:version>1.19.3</sparkle:version>
