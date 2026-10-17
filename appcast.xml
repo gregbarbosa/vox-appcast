@@ -5,6 +5,45 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.21.0</title>
+            <pubDate>Sat, 17 Oct 2026 23:26:25 +0000</pubDate>
+            <sparkle:version>1.21.0</sparkle:version>
+            <sparkle:shortVersionString>1.21.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>What's new</h3>
+                <ul>
+                    <li><strong>New Settings window.</strong> A sidebar with General, Speaking, Listening, Dictionary, History, Storage and About. Back and Forward buttons (Cmd-[ and Cmd-]), and a search field that finds the page for any setting.</li>
+                    <li><strong>Speed up to 3&times;.</strong> The Speed slider goes from 0.5&times; to 3&times; with labelled steps.</li>
+                    <li><strong>History.</strong> Filter by Spoken or Dictated, search, and play, copy or share any item.</li>
+                    <li><strong>Dictionary.</strong> One list with a fast Add (Cmd-N), search, sorting, and import and export.</li>
+                    <li><strong>Storage.</strong> Models are grouped by feature, with the space each one uses.</li>
+                    <li><strong>Update reminders.</strong> When an update is ready, the Vox menu and General show it, instead of an alert behind your other windows.</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                    <li>A transcription that hangs now ends with an error instead of a frozen bubble.</li>
+                    <li>You can drag the floating player again, and Vox remembers where you put it.</li>
+                    <li>Imported dictionary entries now work.</li>
+                    <li>Fast clean-up no longer freezes Vox at launch.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.21.0/Vox-1.21.0.zip"
+                sparkle:edSignature="bUy60vzPVBtCRTyLsryXlPGmjT2/+BEMz3qfxy4t8jd3f0RdzgP7kwPzKDm+TSAomTygc0FBgTkhRbuOWv3uAA=="
+                length="12424575"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.21.0/Vox-1.19.4-to-1.21.0.delta"
+                    sparkle:version="1.21.0"
+                    sparkle:deltaFrom="1.19.4"
+                    sparkle:edSignature="5WCm8HGoL5582xwosK90Ew2lAwppE8ZYcCQYHYa1GYkMYlIJlI/YoezEHagcfUOjccrI/OUNDh+o5v3/h1p7BQ=="
+                    length="1658650"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.19.4</title>
             <pubDate>Fri, 02 Oct 2026 21:19:43 +0000</pubDate>
             <sparkle:version>1.19.4</sparkle:version>
