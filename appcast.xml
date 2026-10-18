@@ -5,6 +5,41 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.21.1</title>
+            <pubDate>Sun, 18 Oct 2026 18:11:21 +0000</pubDate>
+            <sparkle:version>1.21.1</sparkle:version>
+            <sparkle:shortVersionString>1.21.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Fixes</h3>
+                <ul>
+                    <li><strong>Faster launch.</strong> The punctuation model for Fast clean-up now loads in a moment instead of about 3 seconds.</li>
+                    <li><strong>Faster Kokoro (Neural Engine).</strong> The voice loads about a second faster and speaks faster.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.21.1/Vox-1.21.1.zip"
+                sparkle:edSignature="KzXvkkzV2jBGfvDsR0/O12P7qOD20OGxN/7ns0zXuUszO3LrEbzQSbOQgcyExQf+Y+tOVDrXJF4D243ypqFHDg=="
+                length="12425049"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.21.1/Vox-1.21.0-to-1.21.1.delta"
+                    sparkle:version="1.21.1"
+                    sparkle:deltaFrom="1.21.0"
+                    sparkle:edSignature="I0sfNT1KNPHOkvY106FQr36SC2tHXgNzkRA3m/a7Zbhq9WTrWsIBZpvTq5aoX4cateTkb/V8rD8WDYMEf8H0AA=="
+                    length="383358"
+                    type="application/octet-stream" />
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.21.1/Vox-1.19.4-to-1.21.1.delta"
+                    sparkle:version="1.21.1"
+                    sparkle:deltaFrom="1.19.4"
+                    sparkle:edSignature="ePZOAaXh/HbR/J/UdP20BYHJ+Ovko+3Ny7W3aA+/6Bcq99j7b/zs/iaqXgSq3JTD+k1gwm0VfI+aSVeaxoKuAQ=="
+                    length="1651994"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.21.0</title>
             <pubDate>Sat, 17 Oct 2026 23:26:25 +0000</pubDate>
             <sparkle:version>1.21.0</sparkle:version>
