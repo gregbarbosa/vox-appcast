@@ -5,6 +5,42 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.23.0</title>
+            <pubDate>Tue, 20 Oct 2026 01:45:27 +0000</pubDate>
+            <sparkle:version>1.23.0</sparkle:version>
+            <sparkle:shortVersionString>1.23.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>What's new</h3>
+                <ul>
+                    <li><strong>Faster first audio.</strong> Read-aloud speaks a short first chunk, so long text starts in about a third of a second.</li>
+                    <li><strong>Faster dictation model load.</strong> Parakeet loads about three times faster.</li>
+                    <li><strong>The read-aloud pill shows at the hotkey press.</strong></li>
+                    <li><strong>Spanish, French, Italian and Portuguese Kokoro voices.</strong></li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                    <li><strong>A stop press after "Stop after silence" no longer drops your dictation.</strong> Esc still cancels.</li>
+                    <li><strong>Voz dictation is ready seconds after launch.</strong></li>
+                    <li><strong>Less memory after Kokoro speaks.</strong></li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.23.0/Vox-1.23.0.zip"
+                sparkle:edSignature="ZaOGZomJDPMByabodRHuuEGtOLyY2udLZaCqXGsb8rYGq81ARSCE2v1RwvgHiRKz4Qlv8LHNz32Z7TcBMYb/Cg=="
+                length="12480493"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.23.0/Vox-1.21.1-to-1.23.0.delta"
+                    sparkle:version="1.23.0"
+                    sparkle:deltaFrom="1.21.1"
+                    sparkle:edSignature="/lsGnl/NBsaXAAI8GWLjE7IImzPmlsmicyWqGtCQ8yRpEGsBMmOF6OUu/3uNW+ZqAUz2lJYpR0ComBDKJF4QBg=="
+                    length="1335326"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.21.1</title>
             <pubDate>Sun, 18 Oct 2026 18:11:21 +0000</pubDate>
             <sparkle:version>1.21.1</sparkle:version>
