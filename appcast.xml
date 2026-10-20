@@ -5,6 +5,37 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.24.0</title>
+            <pubDate>Tue, 20 Oct 2026 13:53:17 +0000</pubDate>
+            <sparkle:version>1.24.0</sparkle:version>
+            <sparkle:shortVersionString>1.24.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>What's new</h3>
+                <ul>
+                    <li><strong>Kokoro ANE starts speaking about a third sooner.</strong> Its Noise stage runs in about half the time, with the same sound.</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                    <li><strong>Kokoro ANE no longer sounds thin and bright.</strong> Its sound now matches the standard Kokoro voice. Vox downloads the updated stage (about 9 MB) the next time you use Kokoro ANE.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.24.0/Vox-1.24.0.zip"
+                sparkle:edSignature="tr7pnlqoNgiOZNsChWgsGFbUXwq7YSwTtgpNLRVhl9dCZhSeL3gbtA/e8mOUNLR0azHQYca3RAdwucxMitG9CQ=="
+                length="12481940"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.24.0/Vox-1.23.0-to-1.24.0.delta"
+                    sparkle:version="1.24.0"
+                    sparkle:deltaFrom="1.23.0"
+                    sparkle:edSignature="Fkfq+PagC7up0TeTCMb2kzxDDmKT1huBPxkYKRmVC8K1Xo/qVJP6LMHPGOGYipDL3s1+/79RR7BgX6w5oUTLAQ=="
+                    length="628970"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.23.0</title>
             <pubDate>Tue, 20 Oct 2026 01:45:27 +0000</pubDate>
             <sparkle:version>1.23.0</sparkle:version>
