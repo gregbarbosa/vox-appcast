@@ -5,6 +5,42 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.25.0</title>
+            <pubDate>Wed, 21 Oct 2026 13:30:21 +0000</pubDate>
+            <sparkle:version>1.25.0</sparkle:version>
+            <sparkle:shortVersionString>1.25.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>What's new</h3>
+                <ul>
+                    <li><strong>Phonon, a new streaming voice (Beta).</strong> It starts speaking about 20 ms after you press the hotkey, with 37 English voices in US Female, US Male, UK Female, UK Male and Characters groups. The first use downloads 137 MB.</li>
+                    <li><strong>Fluid Speech Mini, a new listening model (Beta).</strong> English only. It matches Parakeet's accuracy with about 250 MB of memory. The download is 253 MB.</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                    <li><strong>Streamed speech no longer breaks up between chunks.</strong> Chunks now play back to back, with no silence between paragraphs.</li>
+                    <li><strong>The Listening download shows its size</strong>, for example "6% of ~253 MB", instead of a file count.</li>
+                    <li><strong>A refusal from Apple Intelligence is no longer inserted as your text.</strong> Vox inserts what you said instead.</li>
+                    <li><strong>The rewrite pass no longer inserts "Wednesday" into dictations.</strong></li>
+                    <li><strong>Settings puts Back and Forward left of the page title</strong>, and names Apple Intelligence under After you stop.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.25.0/Vox-1.25.0.zip"
+                sparkle:edSignature="QC8p3e9VEAeSIEyp98KNdZrojMpmxuXAqdjMqoo9hdsT/tfr8WAAUncnNLxkzk/1omhsZrnBCp8M+I9vP4HlAQ=="
+                length="14145665"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.25.0/Vox-1.24.0-to-1.25.0.delta"
+                    sparkle:version="1.25.0"
+                    sparkle:deltaFrom="1.24.0"
+                    sparkle:edSignature="2AIMlaSe2iYqfrTEHeIwjsTn6ncH4jKJxlC3YxF0eSqhT9/sy2ao1TiAwzobSpspWgR/JftWvXaXR03qV/20Bg=="
+                    length="2690518"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.24.0</title>
             <pubDate>Tue, 20 Oct 2026 13:53:17 +0000</pubDate>
             <sparkle:version>1.24.0</sparkle:version>
