@@ -5,6 +5,40 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.25.1</title>
+            <pubDate>Wed, 21 Oct 2026 21:29:06 +0000</pubDate>
+            <sparkle:version>1.25.1</sparkle:version>
+            <sparkle:shortVersionString>1.25.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Fixes</h3>
+                <ul>
+                    <li><strong>The voice preview in Settings now plays at your Playback speed.</strong> Move the slider and press play to hear the speed. A slider move also changes a preview that is playing.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.25.1/Vox-1.25.1.zip"
+                sparkle:edSignature="Q1vCDW7faa0qH08fvdWhI10YghrkOy5+oNa2oXlxYbrfd3YHxvT7kKDAl53Ra4I5oh5LKF+x+qq7J2Z3yzqwBg=="
+                length="14145967"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.25.1/Vox-1.25.0-to-1.25.1.delta"
+                    sparkle:version="1.25.1"
+                    sparkle:deltaFrom="1.25.0"
+                    sparkle:edSignature="wXKmyHgeg+5s8lf8aod47Fsu+jzcUi3C3QFz4QtmTgfo3i+e7z1JEqYj3dY+/6ZNMe9xCn3ivV4ZbzAzqV+gDw=="
+                    length="969606"
+                    type="application/octet-stream" />
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.25.1/Vox-1.24.0-to-1.25.1.delta"
+                    sparkle:version="1.25.1"
+                    sparkle:deltaFrom="1.24.0"
+                    sparkle:edSignature="zdLcs37VKnYKEBPHZilAuIKeDQ/QZRkr1cV07E9oND/AYoQG2MCJP5/wQ05xXVFYaP8hQxAVtZuqDsSESxHzCg=="
+                    length="2686998"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.25.0</title>
             <pubDate>Wed, 21 Oct 2026 13:30:21 +0000</pubDate>
             <sparkle:version>1.25.0</sparkle:version>
