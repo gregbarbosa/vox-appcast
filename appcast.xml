@@ -5,6 +5,40 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.26.1</title>
+            <pubDate>Thu, 22 Oct 2026 13:06:12 +0000</pubDate>
+            <sparkle:version>1.26.1</sparkle:version>
+            <sparkle:shortVersionString>1.26.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>What's new</h3>
+                <ul>
+                    <li>Internal cleanups to streamed playback and the Speaking settings page. No change you can see.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.26.1/Vox-1.26.1.zip"
+                sparkle:edSignature="ZkCnnVq+UpjwSYiSGpyEj1561AMMA85iNpKazyxFFwPKiaroOBSD3cSL0z3BGkMnRncDgWEAGdnTomPAxR5xBg=="
+                length="14221698"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.26.1/Vox-1.26.0-to-1.26.1.delta"
+                    sparkle:version="1.26.1"
+                    sparkle:deltaFrom="1.26.0"
+                    sparkle:edSignature="tohUy0a08G8liSOM4K3qaWnmxL0zQ21j8FDj1oSwLvOCXUFvJsHRewKzDB+vdU8XEzx+N5Zf28rjdWykSZqLCw=="
+                    length="794930"
+                    type="application/octet-stream" />
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.26.1/Vox-1.25.2-to-1.26.1.delta"
+                    sparkle:version="1.26.1"
+                    sparkle:deltaFrom="1.25.2"
+                    sparkle:edSignature="gBSbFteVwll97oXPzfb7SsPEWWyt1Ka9xo3jho+6lxULqfRR0bbm6UCkmx02YvWBKCiLmEF3JRUT6u08JW1+DQ=="
+                    length="1428318"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.26.0</title>
             <pubDate>Thu, 22 Oct 2026 12:57:50 +0000</pubDate>
             <sparkle:version>1.26.0</sparkle:version>
