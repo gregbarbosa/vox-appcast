@@ -5,6 +5,46 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.25.2</title>
+            <pubDate>Thu, 22 Oct 2026 02:03:05 +0000</pubDate>
+            <sparkle:version>1.25.2</sparkle:version>
+            <sparkle:shortVersionString>1.25.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>Changes</h3>
+                <ul>
+                    <li><strong>A dictation press during "Cleaning up text…" starts the next dictation.</strong> Vox pastes the current text first, then starts recording. After a silence stop, a press during cleanup is still ignored.</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                    <li><strong>Dictated text no longer goes missing right after you stop.</strong> Vox now waits up to a second for the hotkey's Control and Option to be released before it pastes.</li>
+                    <li><strong>The listening pill no longer goes missing on back-to-back dictations.</strong> The pill stays up and springs back when a new dictation starts during its fade.</li>
+                    <li><strong>A dictation started while the pill shows Done no longer gets an empty pill.</strong></li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.25.2/Vox-1.25.2.zip"
+                sparkle:edSignature="QMVHeSLMgml98AWx4C6SYJgi7YC8d0m1BIorbNHeXcCQ1qrsCOGE1ecR/7hNSgNbR1bHp202ylldMNZ3yDsXBA=="
+                length="14146908"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.25.2/Vox-1.25.1-to-1.25.2.delta"
+                    sparkle:version="1.25.2"
+                    sparkle:deltaFrom="1.25.1"
+                    sparkle:edSignature="C6gsmMwICFGDjTvohLcbJuvD6keNfu7bXFDZtQ5wwWPynd8VJddP7v9Et7AJeqELAQdGasFZTgoc+8ZJaBycCA=="
+                    length="990894"
+                    type="application/octet-stream" />
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.25.2/Vox-1.25.0-to-1.25.2.delta"
+                    sparkle:version="1.25.2"
+                    sparkle:deltaFrom="1.25.0"
+                    sparkle:edSignature="brELVspn/JT2Q8mghG2U6g9mc5ZAFpRFG6dzGSXAM01Hp1tPcDPUUSLJyQc7F9BWPgzU+B3zDBixdmp6fnH9Bw=="
+                    length="1102094"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.25.1</title>
             <pubDate>Wed, 21 Oct 2026 21:29:06 +0000</pubDate>
             <sparkle:version>1.25.1</sparkle:version>
