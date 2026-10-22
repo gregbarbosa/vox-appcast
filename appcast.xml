@@ -5,6 +5,35 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.26.0</title>
+            <pubDate>Thu, 22 Oct 2026 12:57:50 +0000</pubDate>
+            <sparkle:version>1.26.0</sparkle:version>
+            <sparkle:shortVersionString>1.26.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h3>What's new</h3>
+                <ul>
+                    <li><strong>Read the same text again and Vox plays it from disk.</strong> Vox saves each chunk of a read-aloud and the play position as it plays. A second press on the same selection, voice and speed starts at once from the sentence where you stopped, with no new synthesis. An unfinished read plays its saved part while Vox makes the rest. Phonon voices stream their audio and are not saved.</li>
+                    <li><strong>Clear History, deleting an item and the Generated audio Clear also remove the saved read-aloud audio.</strong></li>
+                    <li><strong>Crash diagnostics.</strong> Vox records a read-aloud that a crash cut short and, on macOS 27, each crash diagnostic, in its local performance log.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.26.0/Vox-1.26.0.zip"
+                sparkle:edSignature="oOCidjROFQ9Y3E9XJtJMkXJ+7dOajJk8unz2XLqu+5pa3/V/Q84uDdqwmjdn/16HAnduxnMFgpsyAU7CKh2SBw=="
+                length="14221493"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.26.0/Vox-1.25.2-to-1.26.0.delta"
+                    sparkle:version="1.26.0"
+                    sparkle:deltaFrom="1.25.2"
+                    sparkle:edSignature="KUjMf24IXFGt4OBrkPg9WCjCes5myA22QyOrXwo1M2mY2gXmWYlW/+p1fU2nwDcbItp0ZKd3VIT4qy+wan0yAQ=="
+                    length="1432082"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.25.2</title>
             <pubDate>Thu, 22 Oct 2026 02:03:05 +0000</pubDate>
             <sparkle:version>1.25.2</sparkle:version>
