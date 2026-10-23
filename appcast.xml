@@ -5,6 +5,57 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.28.0</title>
+            <pubDate>Fri, 23 Oct 2026 01:03:13 +0000</pubDate>
+            <sparkle:version>1.28.0</sparkle:version>
+            <sparkle:shortVersionString>1.28.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h3>Vox 1.28.0 (2026-10-22)</h3>
+<p><strong>Added</strong></p>
+<ul><li>Control Center and the Now Playing widget now show a scrubber that seeks the read-aloud (#96).</li></ul>
+<p><strong>Changed</strong></p>
+<ul><li>AGENTS.md has a recipe that tells a TCC-wedged test run from a hung test (#149).</li></ul>
+<p><strong>Fixed</strong></p>
+<ul><li>A superseded read-aloud that waits for the synthesis gate now stops there. It no longer runs a full generate (#96).</li><li>Quit or a Sparkle relaunch during a muted dictation restores the system volume (#96).</li><li>After a crash or force quit during a muted dictation, the next launch restores the output mute or volume that Vox changed. A level you changed since then stays (#96).</li><li>The STT and TTS routers guard the active model ID with a lock, and the <code>@unchecked Sendable</code> router and player types state why they are safe (#96).</li><li>Removed the unused <code>ModifierReleaseWaiter.wait</code>. The clipboard capture posts modifier key-ups instead (#96).</li></ul>
+<h3>Vox 1.27.1 (2026-10-22)</h3>
+<p><strong>Changed</strong></p>
+<ul><li>Update notes now list this version and the four before it, so an update that skips versions shows every change.</li><li>The dictation done hold takes an injectable clock, so its test no longer depends on wall-clock timing.</li><li>Tests no longer put a real floating pill or player panel on screen under <code>swift test</code>; one shared check now detects the test host.</li></ul>
+<p><strong>Fixed</strong></p>
+<ul><li>On a Mac where Vox has never asked for the microphone, "Allow…" and the "Vox can't hear you" banner now show the macOS prompt. Before, they opened System Settings, which does not list Vox until Vox has asked.</li><li>The first dictation press on a Mac where Vox has never asked for the microphone now shows the macOS prompt instead of a notice that points to System Settings. That press does not record; the next press does (#104).</li><li>The listening waveform no longer pins at full height during normal speech. One dBFS mapping now sets the bar level (speech at -20 dBFS draws about 0.73, room noise stays at the silence floor), and bars rise fast and fall slowly. The window, curve and smoothing are <code>PillTuning</code> knobs in the tuning panel.</li><li>Dictation keeps recording when you switch the microphone mid-recording (for example when AirPods connect). A new dictation after a switch no longer fails with an audio format error. If Vox cannot continue, it keeps what it heard and shows a "Recording stopped" notice.</li><li>Streaming dictation no longer drops the last word or two when you stop. Vox now stops the microphone before it closes the stream to the recognizer, so the final audio reaches it, and it feeds one chunk of silence so the last word decodes in full. (#179)</li><li>Fuzzy dictionary matching no longer turns common words into an entry ("soft" or "sift the" into "Swift") and never swallows the next word. A single heard word needs 5 letters and a close spelling.</li><li>When two entries sound alike, the closest spelling wins, not the list order.</li><li>Accented letters count as their plain letters in sound matching.</li><li>A CSV export and import keeps a trigger that contains "·".</li><li>A CSV file with no header row keeps its first row, and the Dictionary tab shows how many entries an import added.</li><li>The Dictionary rejects a spoken form that has no letter or digit.</li><li>"Mute other audio" now silences output devices that have no master mute (for example USB audio interfaces). Vox tries master mute, per-channel mute, then the volume, restores exactly what it changed, and logs any failure.</li><li>A synthesis failure after playback started no longer leaves a stuck "Synthesis failed" pill. The played audio ends first, the error pill has a close button, and a retryable error dismisses itself after 8 seconds (#161).</li><li>Vox now notices a model you deleted outside the app (for example in Finder). The next read-aloud or dictation downloads the model again and shows the download progress, instead of failing at load.</li><li>Catalog download sizes now match the real download: Kokoro 361 MB (was 164 MB), Parakeet Realtime 450 MB (was 360 MB), Voz 337 MB (was 466 MB). A gated test (<code>VOX_RUN_NETWORK_TESTS=1</code>) checks every figure against the Hugging Face listing (#138).</li></ul>
+<h3>Vox 1.27.0 (2026-10-22)</h3>
+<p><strong>Added</strong></p>
+<ul><li><strong>Phonon reads resume and replay from disk.</strong> A second press on the same text with the Phonon voice plays the saved audio with no new synthesis, and a stopped Phonon read continues from the saved part. Phonon now speaks long text in chunks of about 350 characters; the first audio still starts as Phonon generates it.</li></ul>
+<h3>Vox 1.26.1 (2026-10-22)</h3>
+<p><strong>Changed</strong></p>
+<ul><li>Streamed playback decodes each audio segment in memory instead of through a temporary file on disk.</li><li>The Speaking page groups Phonon's voices in one pass, with no force unwraps.</li><li>After an output device change, streamed playback starts its audio engine once, not twice.</li></ul>
+<h3>Vox 1.26.0 (2026-10-22)</h3>
+<p><strong>Added</strong></p>
+<ul><li><strong>Read the same text again and Vox plays it from disk.</strong> Vox saves each chunk of a read-aloud and the play position as it plays. A second press on the same selection, voice and speed starts at once from the sentence where you stopped, with no new synthesis. An unfinished read plays its saved part while Vox makes the rest. The text keeps one History item. Clear History, deleting an item and the Generated audio Clear also remove the saved read-aloud audio.</li><li><strong>Crash diagnostics in <code>perf.jsonl</code>.</strong> Vox records a read-aloud that a crash cut short (<code>interrupted</code>) and, on macOS 27, each MetricKit crash diagnostic (<code>crash</code>). A Quit during a read-aloud is a clean exit and records nothing. Vox keeps the newest 20 crash call stacks.</li></ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.28.0/Vox-1.28.0.zip"
+                sparkle:edSignature="3N0oFMVCBxNeoBWq6WLPtsHWhE/c0RDxQUy6EqqXj+LLAwLgbsiTMBf0ogHCctRvk2w9D6mOAqKKmj/BTNABBw=="
+                length="14245963"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.28.0/Vox-1.27.1-to-1.28.0.delta"
+                    sparkle:version="1.28.0"
+                    sparkle:deltaFrom="1.27.1"
+                    sparkle:edSignature="UMl9Vqv53lJLq/uetrQwA5RnDphULtd0u8u6uZ2gxYIljn8waRLyaAbxP3DPKp598JTL9HFYBK5KaUWqk6ZIAQ=="
+                    length="1092850"
+                    type="application/octet-stream" />
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.28.0/Vox-1.27.0-to-1.28.0.delta"
+                    sparkle:version="1.28.0"
+                    sparkle:deltaFrom="1.27.0"
+                    sparkle:edSignature="gw1DYew1sxzeTLSY3W8Pw8kNox2/12Lob3B+Q6MGRwRaIhbTxCrjiq62k91/cFs5iU5LSKiu9JSQPdJnRDPRBw=="
+                    length="1359190"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.27.1</title>
             <pubDate>Thu, 22 Oct 2026 21:31:03 +0000</pubDate>
             <sparkle:version>1.27.1</sparkle:version>
