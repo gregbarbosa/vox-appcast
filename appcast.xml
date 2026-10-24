@@ -5,6 +5,65 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.29.0b5</title>
+            <pubDate>Sat, 24 Oct 2026 16:49:32 +0000</pubDate>
+            <sparkle:version>1.29.0b5</sparkle:version>
+            <sparkle:shortVersionString>1.29.0b5</sparkle:shortVersionString>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h3>Vox 1.29.0b5 (2026-10-24)</h3>
+<p><strong>A timer you can trust.</strong> The timer in the listening pill now starts when Vox actually hears you, the moment the waveform comes alive. It no longer counts the second the microphone takes to wake up, or the time a model takes to load. Anything you say while the model loads is still kept.</p>
+<p><strong>An easier engine list.</strong> In Settings › Listening, the Parakeet engines now sit together, with Fluid Speech Mini at the top and Voz at the bottom.</p>
+<h3>Vox 1.29.0b4 (2026-10-24)</h3>
+<p><strong>History is easier to scan.</strong> Each dictation now shows a short title from its first words, with its length right beside it, so you can spot that long meeting note at a glance. Click a row to read the whole thing.</p>
+<h3>Vox 1.29.0b3 (2026-10-23)</h3>
+<p><strong>Long dictations keep every word.</strong> With Fluid Speech Mini, a long dictation or recording could lose a few sentences in the middle. Vox now notices a quiet stretch where you were still talking and listens to it again, so nothing goes missing.</p>
+<h3>Vox 1.29.0b2 (2026-10-23)</h3>
+<p><strong>Talk as long as you like.</strong> The 5-minute limit is gone. Vox saves your voice to disk while you speak, so a long meeting note or a rambling idea is never lost. If something goes wrong (a crash, a failed transcription, or you press Esc), the recording waits for you in History.</p>
+<p><strong>Try again with a different engine.</strong> Right-click a dictation in History and choose Transcribe Again to run it through any engine you have downloaded. A progress bar shows how far it is, and your old text stays if you change your mind.</p>
+<p><strong>A new engine to try: Parakeet Unified (Beta).</strong> Your words appear as you speak, already with punctuation and capitals. The first dictation after you choose it takes a little while to prepare; after that it is quick.</p>
+<p><strong>Make the pill yours.</strong> In Settings › Listening, choose whether the pill shows your words as you talk, a recording dot, and a timer.</p>
+<p><strong>Smaller things you will notice</strong></p>
+<ul><li>Dictionary search is at the top of the list. Press Cmd+F to jump to it.</li></ul>
+<h3>Vox 1.29.0b1 (2026-10-23)</h3>
+<p><strong>Your first words count.</strong> The pill shows the moment you press the shortcut, and the words you say while the microphone wakes up are no longer lost.</p>
+<p><strong>Cleaner text from Best clean up.</strong> It keeps your punctuation, stops writing ordinary words in capitals, and handles long dictations without giving up.</p>
+<p><strong>Stop when you want.</strong> Pick how long Vox waits in silence before it stops, or tell it to keep listening until you press the shortcut again.</p>
+<p><strong>Better with VoiceOver and Reduce Motion.</strong> Every player control has a name, and the player's animations calm down when you ask for less motion.</p>
+<p><strong>Tidier storage.</strong> Vox gathers old model folders into one place and shows you what it can clean up. It never deletes anything without asking.</p>
+<p><strong>Easier help.</strong> About › Export diagnostics saves one file you can send if something goes wrong. It holds no transcripts, history, or audio.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.29.0b5/Vox-1.29.0b5.zip"
+                sparkle:edSignature="wIadU0Q1R3+ZFpnsV4hLq+amz+GXRHMxfykq04wmuuBy9jqtS6AXOd4KWoevMwO9aa2Akrjk0zxVWHbkOO8RCg=="
+                length="14469549"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.29.0b5/Vox-1.29.0b4-to-1.29.0b5.delta"
+                    sparkle:version="1.29.0b5"
+                    sparkle:deltaFrom="1.29.0b4"
+                    sparkle:edSignature="eQ5DLdFvdH7SG/rZSd9ePmekhDbagL11rqtFFNXsZ1076HAlP1rZ+g6+SAjywATRq8iKDPSBbjacyyyv9hMLDA=="
+                    length="1100202"
+                    type="application/octet-stream" />
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.29.0b5/Vox-1.29.0b3-to-1.29.0b5.delta"
+                    sparkle:version="1.29.0b5"
+                    sparkle:deltaFrom="1.29.0b3"
+                    sparkle:edSignature="c2XL0+o7X9d3rF1gnYAbeOVGCPT2aUb69LCDhUGF5WcBxmK3535IB88KBAVaiA98gulqGtI+UfwhsYeaU3UpAQ=="
+                    length="1113566"
+                    type="application/octet-stream" />
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.29.0b5/Vox-1.28.0-to-1.29.0b5.delta"
+                    sparkle:version="1.29.0b5"
+                    sparkle:deltaFrom="1.28.0"
+                    sparkle:edSignature="XBQiumRGTmyRbxsn/+Gra8T/6u1fNVrIr+ZtmJg1lNSsUaXjhwFPYyrePONXifZCpu3giXKKCXEDQAJFApUDDA=="
+                    length="1942302"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.29.0b4</title>
             <pubDate>Sat, 24 Oct 2026 16:24:27 +0000</pubDate>
             <sparkle:version>1.29.0b4</sparkle:version>
