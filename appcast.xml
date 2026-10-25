@@ -5,6 +5,55 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.29.0b8</title>
+            <pubDate>Sun, 25 Oct 2026 20:26:33 +0000</pubDate>
+            <sparkle:version>1.29.0b8</sparkle:version>
+            <sparkle:shortVersionString>1.29.0b8</sparkle:shortVersionString>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h3>Vox 1.29.0b8 (2026-10-24)</h3>
+<p><strong>A cleaner Listening page.</strong> The recommended engine, Parakeet ANE, now sits at the top of the engine list, and the picker shows just the engine, with no extra lines under it. You can still see who made each model, and its license, in About.</p>
+<h3>Vox 1.29.0b7 (2026-10-24)</h3>
+<p><strong>A new default engine.</strong> Dictation now uses Parakeet ANE, which runs on the Neural Engine. Parakeet Realtime, Voz and the old Parakeet are gone; if you used one, Vox switched you to the closest engine. Vox downloads the new engine when it starts. You can delete the old downloads in Settings → Storage.</p>
+<h3>Vox 1.29.0b6 (2026-10-24)</h3>
+<p><strong>No more stuck pill.</strong> If a live transcription engine ever freezes while it finishes your dictation, Vox now gives up on its own instead of waiting until you press Esc. Your recording is kept in History, so you can run it again with Transcribe Again.</p>
+<h3>Vox 1.29.0b5 (2026-10-24)</h3>
+<p><strong>A timer you can trust.</strong> The timer in the listening pill now starts when Vox actually hears you, the moment the waveform comes alive. It no longer counts the second the microphone takes to wake up, or the time a model takes to load. Anything you say while the model loads is still kept.</p>
+<p><strong>An easier engine list.</strong> In Settings › Listening, the Parakeet engines now sit together, with Fluid Speech Mini at the top and Voz at the bottom.</p>
+<h3>Vox 1.29.0b4 (2026-10-24)</h3>
+<p><strong>History is easier to scan.</strong> Each dictation now shows a short title from its first words, with its length right beside it, so you can spot that long meeting note at a glance. Click a row to read the whole thing.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.29.0b8/Vox-1.29.0b8.zip"
+                sparkle:edSignature="DYsdkjWgKEowe39XKl7n54/zSPw7mr0Crn+drbhj8Rb5Dbt4NXN1NCGdqeZmxd/2E6s9zI+crE7OsrCekq4DDA=="
+                length="13748111"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.29.0b8/Vox-1.29.0b7-to-1.29.0b8.delta"
+                    sparkle:version="1.29.0b8"
+                    sparkle:deltaFrom="1.29.0b7"
+                    sparkle:edSignature="Ju0z+8J+BfmwI28ACauj8VMTp/gmebzg7j10tunRex9MBexV8SPUKblvtvlG9KGryai+VHzO6LORHfoKgd6tBg=="
+                    length="1028258"
+                    type="application/octet-stream" />
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.29.0b8/Vox-1.29.0b6-to-1.29.0b8.delta"
+                    sparkle:version="1.29.0b8"
+                    sparkle:deltaFrom="1.29.0b6"
+                    sparkle:edSignature="VP1bHZ/KiVHHcOu/buhAI9IdHGFDUw9mcmIv6Hna0/LJBp/3vcc3GJVfgzoEEX2eTWCPJyhx3REXTm93DDJnBA=="
+                    length="1423534"
+                    type="application/octet-stream" />
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.29.0b8/Vox-1.28.0-to-1.29.0b8.delta"
+                    sparkle:version="1.29.0b8"
+                    sparkle:deltaFrom="1.28.0"
+                    sparkle:edSignature="lX47W58m3PoxxvAr2MxzKUqiY40PrfacZN01yNZLWu4OePcNakRN3TJjO4zmOER8ZChWjofwpmndUrP/p/4kBQ=="
+                    length="1884614"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.29.0b7</title>
             <pubDate>Sun, 25 Oct 2026 01:42:10 +0000</pubDate>
             <sparkle:version>1.29.0b7</sparkle:version>
