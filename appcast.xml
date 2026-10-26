@@ -5,6 +5,70 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.29.1b3</title>
+            <pubDate>Mon, 26 Oct 2026 22:35:07 +0000</pubDate>
+            <sparkle:version>1.29.1b3</sparkle:version>
+            <sparkle:shortVersionString>1.29.1b3</sparkle:shortVersionString>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h3>Vox 1.29.1b3 (2026-10-26)</h3>
+<p><strong>Keep dictation ready as long as you like.</strong> Vox lets go of the speech model after 10 minutes of quiet to save memory, so the next dictation can take a moment to start. Now you choose: in Settings › Dictation, set <strong>Keep model loaded</strong> to 10 minutes, 1 hour or Always. Pick Always and dictation starts the instant you press the key.</p>
+<h3>Vox 1.29.1b2 (2026-10-26)</h3>
+<p><strong>Dictation stays ready.</strong> When your Mac runs low on disk space, macOS sometimes clears out the prepared speech model, and your next dictation would wait about half a minute. Now Vox quietly checks once in a while, when you're not using it and your Mac is plugged in or has plenty of battery, and gets the model ready again before you need it.</p>
+<h3>Vox 1.29.1b1 (2026-10-26)</h3>
+<p><strong>Settings that say what they do.</strong> The Speaking and Listening pages are now Read Aloud and Dictation. Sections are easier to scan: Sound for your microphone and chimes, While you dictate for every recording toggle, and Cleanup for what happens to your text.</p>
+<p><strong>Nothing hides on you.</strong> When a setting does not apply, it stays visible, grayed out, with a short note on why. Show live transcript, for example, tells you which model it needs.</p>
+<p><strong>Honest about the wait.</strong> The first time you use a model, Vox prepares it for your Mac. The pill now says "Preparing the model…", and if it takes a while, it tells you it can take up to a minute.</p>
+<p><strong>One less model to choose from.</strong> Fluid Speech Mini is gone. If you used it, Vox switches you to Parakeet ANE.</p>
+<p><strong>Your text lands where you meant it.</strong> If you switch apps before your words are ready, Vox no longer types them into the wrong window. It copies them and lets you know. And with Mute other audio on, your music comes back the moment you stop talking.</p>
+<p><strong>Safer with your data.</strong> If your dictionary file ever gets damaged, Vox keeps a copy instead of erasing it, and a last-second edit before you quit is saved. One odd History entry can no longer empty your whole History.</p>
+<h3>Vox 1.29.0 (2026-10-26)</h3>
+<p><strong>A new default engine.</strong> Dictation now uses Parakeet ANE, which runs on the Neural Engine: fast, accurate, and light on your battery. If you used an engine that is gone (Parakeet Realtime, Voz or the old Parakeet), Vox switched you to the closest one. You can delete the old downloads in Settings › Storage.</p>
+<p><strong>Talk as long as you like.</strong> The 5-minute limit is gone. Vox saves your voice to disk while you speak, so a long meeting note or a rambling idea is never lost. If anything goes wrong, the recording waits for you in History.</p>
+<p><strong>Your first words count.</strong> The pill shows the moment you press the shortcut, and the words you say while the microphone wakes up are no longer lost. The timer starts when Vox actually hears you.</p>
+<p><strong>Move the pill anywhere.</strong> Drag the Listening pill out of your way and it stays there. A click still stops the recording and pastes your words where you were typing. Plug in another display and the pill finds its place again.</p>
+<p><strong>Words that keep up with you.</strong> Live text appears word by word at the end of the line. With Parakeet Unified (Beta), your words appear as you speak, already with punctuation and capitals.</p>
+<p><strong>Try again with a different engine.</strong> Right-click a dictation in History and choose Transcribe Again to run it through any engine you have downloaded. Your old text stays if you change your mind.</p>
+<p><strong>History is easier to scan.</strong> Each dictation shows a short title from its first words, with its length beside it.</p>
+<p><strong>Make the pill yours.</strong> In Settings › Listening, choose whether the pill shows your words, a recording dot, and a timer. The rewrite wand is easy to see in dark mode and shows only while rewrite is on, and the dot, waveform, timer and wand sit evenly spaced.</p>
+<p><strong>Stop when you want.</strong> Pick how long Vox waits in silence before it stops, with every engine, or keep listening until you press the shortcut again.</p>
+<p><strong>Cleaner text.</strong> Best clean up keeps your punctuation, stops writing ordinary words in capitals, and handles long dictations. Long dictations with Fluid Speech Mini keep every word.</p>
+<p><strong>Smaller things you will notice</strong></p>
+<ul><li>The read-aloud player casts a soft shadow, like your menus, and its rounded ends look smooth.</li><li>If a live engine ever freezes while it finishes, Vox gives up on its own and keeps your recording in History.</li><li>Every player control has a name for VoiceOver, and the player calms down with Reduce Motion.</li><li>Vox gathers old model folders into one place and shows you what it can clean up. It never deletes anything without asking.</li><li>About › Export diagnostics saves one file you can send if something goes wrong. It holds no transcripts, history, or audio.</li><li>Dictionary search is at the top of the list. Press Cmd+F to jump to it.</li></ul>
+<h3>Vox 1.29.0b12 (2026-10-26)</h3>
+<p><strong>No leftover words.</strong> After you switch engines, the Listening pill starts clean. It no longer shows the last words from an earlier dictation.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.29.1b3/Vox-1.29.1b3.zip"
+                sparkle:edSignature="ucPJ3RHMzhRIDcy7LTUmNPZXvT5G9MnN9MZUa/03ieBnsZTbOx2fZEF3QhvmBBCc3Eppcwi9C1bMy2dSNf7zCA=="
+                length="13780136"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.29.1b3/Vox-1.29.1b2-to-1.29.1b3.delta"
+                    sparkle:version="1.29.1b3"
+                    sparkle:deltaFrom="1.29.1b2"
+                    sparkle:edSignature="07T0LKFntOeDWEqvb/4O8VlmsWfGi1XA7Dp/Dm7LSFoqkOi1IAJampk6uIK8pMVuE43OUayKmXxDbKPbgJPrBw=="
+                    length="933610"
+                    type="application/octet-stream" />
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.29.1b3/Vox-1.29.1b1-to-1.29.1b3.delta"
+                    sparkle:version="1.29.1b3"
+                    sparkle:deltaFrom="1.29.1b1"
+                    sparkle:edSignature="YT1S+hSWwWvb101yb8BqpfV/6YhRfhvEClEcGmXaUzXDiBi596db9F61bNwhqCnzO9ZAWKTaZ4NfA2hm31wnBg=="
+                    length="1296946"
+                    type="application/octet-stream" />
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.29.1b3/Vox-1.29.0-to-1.29.1b3.delta"
+                    sparkle:version="1.29.1b3"
+                    sparkle:deltaFrom="1.29.0"
+                    sparkle:edSignature="03lOflDIbk9sU8ccNEOkDtSvVTVf7DZjV9f5+FX0xr+NROtAQSgM1yYmx7QqLgOz+0ApkgpohLz2h8S1BEGcAA=="
+                    length="1366174"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.29.1b2</title>
             <pubDate>Mon, 26 Oct 2026 18:56:05 +0000</pubDate>
             <sparkle:version>1.29.1b2</sparkle:version>
