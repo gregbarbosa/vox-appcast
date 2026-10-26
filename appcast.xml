@@ -5,6 +5,58 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.29.0b11</title>
+            <pubDate>Mon, 26 Oct 2026 05:48:56 +0000</pubDate>
+            <sparkle:version>1.29.0b11</sparkle:version>
+            <sparkle:shortVersionString>1.29.0b11</sparkle:shortVersionString>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h3>Vox 1.29.0b11 (2026-10-26)</h3>
+<p><strong>Stop after silence with every engine.</strong> Parakeet ANE and Fluid Speech Mini now stop on their own when you stop talking, just like Parakeet Unified. Pick the wait in Settings › Listening.</p>
+<p><strong>A tidier pill.</strong> The dot, waveform, timer and wand now sit evenly spaced, whatever you choose to show. The wand appears only while rewrite is on, and the timer is easier to read.</p>
+<p><strong>The waveform remembers.</strong> Turning the timer on or off while you talk no longer makes the waveform shrink as if it forgot what you said.</p>
+<h3>Vox 1.29.0b10 (2026-10-25)</h3>
+<p><strong>Move the dictation pill anywhere.</strong> Drag the Listening pill out of your way and it stays there. A click still stops the recording and pastes your words where you were typing. Plug in another display and the pill finds its place again.</p>
+<p><strong>Words that keep up with you.</strong> Live text now appears word by word at the end of the line, instead of sliding up from below.</p>
+<p><strong>A cleaner pill.</strong> The timer sits snug against the waveform, and the rewrite wand is easy to see in dark mode. The wand is there from the first moment, and when rewrite is off it waits, dimmed, for a click to turn it on.</p>
+<h3>Vox 1.29.0b9 (2026-10-25)</h3>
+<p><strong>A more polished player.</strong> The read-aloud player now casts a soft shadow, like your menus and popovers, and its rounded ends look smooth instead of clipped.</p>
+<h3>Vox 1.29.0b8 (2026-10-24)</h3>
+<p><strong>A cleaner Listening page.</strong> The recommended engine, Parakeet ANE, now sits at the top of the engine list, and the picker shows just the engine, with no extra lines under it. You can still see who made each model, and its license, in About.</p>
+<h3>Vox 1.29.0b7 (2026-10-24)</h3>
+<p><strong>A new default engine.</strong> Dictation now uses Parakeet ANE, which runs on the Neural Engine. Parakeet Realtime, Voz and the old Parakeet are gone; if you used one, Vox switched you to the closest engine. Vox downloads the new engine when it starts. You can delete the old downloads in Settings → Storage.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.29.0b11/Vox-1.29.0b11.zip"
+                sparkle:edSignature="Z9FYI6nm3Mq0k+I8NJfxbA6FdCPDYSYP6RfoS4o+8DG5e4N3ypAwB4/qeJH5u069ZS2tnqwetKSTNYkwMZftCQ=="
+                length="13753231"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.29.0b11/Vox-1.29.0b10-to-1.29.0b11.delta"
+                    sparkle:version="1.29.0b11"
+                    sparkle:deltaFrom="1.29.0b10"
+                    sparkle:edSignature="/ia+5gZCUvYAqx6C6/zQbUBb7TENQY16BvpsXX2W3qygKp4uMnVdwPuI8JMn6VXJ6iv2jD+zS8Elt6QOTWk8Bw=="
+                    length="1128910"
+                    type="application/octet-stream" />
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.29.0b11/Vox-1.29.0b9-to-1.29.0b11.delta"
+                    sparkle:version="1.29.0b11"
+                    sparkle:deltaFrom="1.29.0b9"
+                    sparkle:edSignature="D3UynCuTzmo4C5X1pjAPfyjZMJrdkOF9Tmu27550RDbHdyVTC4SZbgOzftJriMxSEMwZz+bPBS6fIIqYZ56MBw=="
+                    length="1208970"
+                    type="application/octet-stream" />
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.29.0b11/Vox-1.28.0-to-1.29.0b11.delta"
+                    sparkle:version="1.29.0b11"
+                    sparkle:deltaFrom="1.28.0"
+                    sparkle:edSignature="W2PV46uRPbiXbkDEc439WoHMk5ZOJ/7mWHjx0vU8ztaqcral6mte8y3/YCMqJ00y7fhEpYh0hy8faNzBjHWrBA=="
+                    length="1933134"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.29.0b10</title>
             <pubDate>Mon, 26 Oct 2026 01:38:34 +0000</pubDate>
             <sparkle:version>1.29.0b10</sparkle:version>
