@@ -5,6 +5,63 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.31.0b3</title>
+            <pubDate>Thu, 19 Nov 2026 18:41:35 +0000</pubDate>
+            <sparkle:version>1.31.0b3</sparkle:version>
+            <sparkle:shortVersionString>1.31.0b3</sparkle:shortVersionString>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h3>Vox 1.31.0b3 (2026-11-06)</h3>
+<p><strong>Long dictations keep up with you.</strong> When you dictated for several minutes without a stop, the waveform slowed and the words in the pill fell minutes behind your voice. Now the waveform stays smooth and your words keep pace to the end, however long you talk.</p>
+<h3>Vox 1.31.0b2 (2026-11-03)</h3>
+<p><strong>The dictation pill gets out of the way sooner.</strong> The listening pill now leaves the moment your text appears, about a third of a second earlier. Vox still puts your previous clipboard back a moment later, so a slow app never pastes the wrong thing, even when you dictate again right away.</p>
+<h3>Vox 1.31.0b1 (2026-11-03)</h3>
+<p><strong>Start talking the instant you press the key.</strong> Turn on <strong>Live mic</strong> in Settings › Dictation › Sound and Vox keeps the microphone ready between dictations, so nothing is lost while the mic wakes up. It is off by default and uses some battery. The orange mic dot stays on while it is on. Vox skips it for Bluetooth headsets, which sound worse while the mic is open, and closes the mic while your Mac sleeps.</p>
+<p><strong>VoiceOver and Vox take turns.</strong> When VoiceOver has something to say while Vox reads aloud, it now waits until the voice stops, and it stays quiet while you dictate. The dictation pill offers "Stop Dictation" only while it records.</p>
+<p><strong>Clear when Apple Intelligence can't help.</strong> If Apple Intelligence is off or not supported on your Mac, Settings › Dictation › Cleanup greys out the styles that need it and says why, with a button to turn it on. Your saved choice comes back as soon as Apple Intelligence is ready.</p>
+<p><strong>A waveform that follows the voice.</strong> While Vox reads aloud, the player's bars now move with the speech and drop low in the pauses.</p>
+<p><strong>Calmer motion.</strong> The player opens, closes and changes state smoothly, without a bounce. With Reduce Motion on, it changes at once and the waveform holds still.</p>
+<h3>Vox 1.30.0 (2026-11-02)</h3>
+<p><strong>Teach Vox a word in one step.</strong> When Vox gets a word wrong, fix it where you typed, select your fix, and choose <strong>Add to Dictionary…</strong> in the menu bar. The Dictionary opens with a new row ready: your fix, and the words Vox heard last time. Press Return to save. You can give it a shortcut in Settings › Dictation › Shortcuts.</p>
+<p><strong>Keep dictation ready as long as you like.</strong> In Settings › Dictation, set <strong>Keep model loaded</strong> to 10 minutes, 1 hour or Always. Pick Always and dictation starts the instant you press the key.</p>
+<p><strong>No more surprise waits.</strong> If macOS clears the prepared speech model to free disk space, Vox quietly prepares it again while your Mac is idle and plugged in, so your next dictation starts without a long pause.</p>
+<p><strong>Clearer Settings.</strong> Speaking and Listening are now <strong>Read Aloud</strong> and <strong>Dictation</strong>, with plainer names inside. Options that don't apply right now stay visible, greyed out, with the reason. While a model loads, Vox says so and tells you when it may take a minute.</p>
+<p><strong>Smaller things you will notice</strong></p>
+<ul><li>Mute other audio now ends the moment you stop talking.</li><li>If you switch apps before your text is ready, Vox copies it to the clipboard and tells you, instead of pasting it into the wrong place.</li><li>A dictionary file Vox cannot read is kept aside, not erased, and an edit made just before you quit is saved.</li><li>New installs read aloud with Kokoro ANE. Your current voice stays as it is.</li><li>Fluid Speech Mini is gone; if you used it, Vox moved you to Parakeet ANE. Its old files show in Settings › Storage under "No longer used by Vox".</li></ul>
+<h3>Vox 1.29.1b3 (2026-10-26)</h3>
+<p><strong>Keep dictation ready as long as you like.</strong> Vox lets go of the speech model after 10 minutes of quiet to save memory, so the next dictation can take a moment to start. Now you choose: in Settings › Dictation, set <strong>Keep model loaded</strong> to 10 minutes, 1 hour or Always. Pick Always and dictation starts the instant you press the key.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.31.0b3/Vox-1.31.0b3.zip"
+                sparkle:edSignature="jgE8r+AC7Tl9a6U02EB9BvpZmsqeJLXrDmPhGBS4vwuD1WXr18dmstCYv/IPs211Ov8MnAdns7Tkp3Y6CjiXDw=="
+                length="13387155"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.31.0b3/Vox-1.31.0b2-to-1.31.0b3.delta"
+                    sparkle:version="1.31.0b3"
+                    sparkle:deltaFrom="1.31.0b2"
+                    sparkle:edSignature="l4stusb/ihG5oE03QCX4NfdbT3yTRuabFhOeInMvoeEBu/2dIw6vrYDZmWJQ/WpOlxn3uMel960mMmwceFBICg=="
+                    length="941238"
+                    type="application/octet-stream" />
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.31.0b3/Vox-1.31.0b1-to-1.31.0b3.delta"
+                    sparkle:version="1.31.0b3"
+                    sparkle:deltaFrom="1.31.0b1"
+                    sparkle:edSignature="fnNLlNxff26Wz4Ic8NCKr7d4APvr8tSXv/hh5wkLek4L8kz/XACC1jm4jCIEkrDFnkwHbKQdB9RzW59iH10lBw=="
+                    length="967598"
+                    type="application/octet-stream" />
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.31.0b3/Vox-1.30.0-to-1.31.0b3.delta"
+                    sparkle:version="1.31.0b3"
+                    sparkle:deltaFrom="1.30.0"
+                    sparkle:edSignature="be6YsMOpHxcxIjZaw1v+x+CSqbDIOPraRsJislHsDlwSgqn05h2ntfSnUNjOvzPc4TazL9eNCWg2Aj6i3Q/2Bg=="
+                    length="1361586"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.31.0b2</title>
             <pubDate>Sat, 07 Nov 2026 03:48:50 +0000</pubDate>
             <sparkle:version>1.31.0b2</sparkle:version>
