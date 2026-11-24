@@ -5,6 +5,62 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.31.0b5</title>
+            <pubDate>Tue, 24 Nov 2026 22:02:04 +0000</pubDate>
+            <sparkle:version>1.31.0b5</sparkle:version>
+            <sparkle:shortVersionString>1.31.0b5</sparkle:shortVersionString>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h3>Vox 1.31.0b5 (2026-11-24)</h3>
+<p><strong>Shortcuts that can't get in the way of typing.</strong> When you set a Vox shortcut, the field now refuses a key that you type with, such as S, Space, an arrow or ⇧A, and tells you what to add. F1 to F20 still work on their own.</p>
+<p><strong>A heads-up before you take over a familiar shortcut.</strong> You can now record shortcuts such as ⌘Space or ⌘C. Vox tells you when macOS or most apps already use one, and you decide. While the field waits for your keys, macOS shortcuts pause, so nothing opens by accident.</p>
+<p><strong>Nothing you set has changed.</strong> Your current shortcuts stay as they are. If one of them is a key that you type with, you see a short note under it.</p>
+<h3>Vox 1.31.0b4 (2026-11-24)</h3>
+<p><strong>Use a single Option key as your shortcut.</strong> Any Vox shortcut can now be one Option key on its own: Toggle dictation, Push to talk, Read aloud, Play again or Add to dictionary. Click the shortcut field in Settings › Dictation › Shortcuts or Settings › Read Aloud › Shortcuts, then press and release the key. Left and right are separate, so each Option key can have its own job, or choose Either Option in the menu beside it.</p>
+<p><strong>Hold to talk, tap for the rest.</strong> With Push to talk on an Option key, Vox listens while you hold it. Everything else runs on a quick tap. The microphone opens as you press, so your first word is kept; a Bluetooth microphone opens a moment later, once the press is clear.</p>
+<p><strong>Your other Option shortcuts still work.</strong> Typing ⌥E or Option-clicking still goes to the app in front. There is no new permission to grant, and your current shortcuts stay as they are until you record a new one.</p>
+<h3>Vox 1.31.0b3 (2026-11-06)</h3>
+<p><strong>Long dictations keep up with you.</strong> When you dictated for several minutes without a stop, the waveform slowed and the words in the pill fell minutes behind your voice. Now the waveform stays smooth and your words keep pace to the end, however long you talk.</p>
+<h3>Vox 1.31.0b2 (2026-11-03)</h3>
+<p><strong>The dictation pill gets out of the way sooner.</strong> The listening pill now leaves the moment your text appears, about a third of a second earlier. Vox still puts your previous clipboard back a moment later, so a slow app never pastes the wrong thing, even when you dictate again right away.</p>
+<h3>Vox 1.31.0b1 (2026-11-03)</h3>
+<p><strong>Start talking the instant you press the key.</strong> Turn on <strong>Live mic</strong> in Settings › Dictation › Sound and Vox keeps the microphone ready between dictations, so nothing is lost while the mic wakes up. It is off by default and uses some battery. The orange mic dot stays on while it is on. Vox skips it for Bluetooth headsets, which sound worse while the mic is open, and closes the mic while your Mac sleeps.</p>
+<p><strong>VoiceOver and Vox take turns.</strong> When VoiceOver has something to say while Vox reads aloud, it now waits until the voice stops, and it stays quiet while you dictate. The dictation pill offers "Stop Dictation" only while it records.</p>
+<p><strong>Clear when Apple Intelligence can't help.</strong> If Apple Intelligence is off or not supported on your Mac, Settings › Dictation › Cleanup greys out the styles that need it and says why, with a button to turn it on. Your saved choice comes back as soon as Apple Intelligence is ready.</p>
+<p><strong>A waveform that follows the voice.</strong> While Vox reads aloud, the player's bars now move with the speech and drop low in the pauses.</p>
+<p><strong>Calmer motion.</strong> The player opens, closes and changes state smoothly, without a bounce. With Reduce Motion on, it changes at once and the waveform holds still.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.31.0b5/Vox-1.31.0b5.zip"
+                sparkle:edSignature="Wa29u9F+/iKsZLMYW5cV8q++NZMonpj75Q4UUmgAMw55H8iKX0YVztnlm8UmDJMGvYAtKrIGERHKC1p+5xXFDg=="
+                length="13432865"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.31.0b5/Vox-1.31.0b4-to-1.31.0b5.delta"
+                    sparkle:version="1.31.0b5"
+                    sparkle:deltaFrom="1.31.0b4"
+                    sparkle:edSignature="50mS60oDCFqTCKv8KYmPGZ4lN6U2RaD27Zl62xQtC19J5pi6qBESjuJPWS9QEKVTtoSk4tWuOxjnL1dOVT/eDQ=="
+                    length="1215122"
+                    type="application/octet-stream" />
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.31.0b5/Vox-1.31.0b3-to-1.31.0b5.delta"
+                    sparkle:version="1.31.0b5"
+                    sparkle:deltaFrom="1.31.0b3"
+                    sparkle:edSignature="FxP6/gN6usRL2HaFWYT2saaxpIL8OpBgiavxqugYUnXqx/+ziXsZ/FAFNS9nQhL8U6Am2RPhwmrt2/1nn6UEAA=="
+                    length="1444454"
+                    type="application/octet-stream" />
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.31.0b5/Vox-1.30.0-to-1.31.0b5.delta"
+                    sparkle:version="1.31.0b5"
+                    sparkle:deltaFrom="1.30.0"
+                    sparkle:edSignature="QNjRE3RwvJm8Ook5gz6cIB5e9bW7ku8zOktXhIsCqHhpadqD7Eldo/pPnbrtw70s2lT3tQ3B3sF6O28zie08BQ=="
+                    length="1542038"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.31.0b4</title>
             <pubDate>Tue, 24 Nov 2026 21:46:25 +0000</pubDate>
             <sparkle:version>1.31.0b4</sparkle:version>
