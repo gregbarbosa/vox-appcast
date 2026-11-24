@@ -5,6 +5,58 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.31.0b6</title>
+            <pubDate>Tue, 24 Nov 2026 22:44:40 +0000</pubDate>
+            <sparkle:version>1.31.0b6</sparkle:version>
+            <sparkle:shortVersionString>1.31.0b6</sparkle:shortVersionString>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h3>Vox 1.31.0b6 (2026-11-24)</h3>
+<p><strong>Check for Updates comes to the front.</strong> When you choose Check for Updates in the menu bar or in Settings, the window now opens on top of your other apps, and you no longer have to look for it behind them.</p>
+<h3>Vox 1.31.0b5 (2026-11-24)</h3>
+<p><strong>Shortcuts that can't get in the way of typing.</strong> When you set a Vox shortcut, the field now refuses a key that you type with, such as S, Space, an arrow or ⇧A, and tells you what to add. F1 to F20 still work on their own.</p>
+<p><strong>A heads-up before you take over a familiar shortcut.</strong> You can now record shortcuts such as ⌘Space or ⌘C. Vox tells you when macOS or most apps already use one, and you decide. While the field waits for your keys, macOS shortcuts pause, so nothing opens by accident.</p>
+<p><strong>Nothing you set has changed.</strong> Your current shortcuts stay as they are. If one of them is a key that you type with, you see a short note under it.</p>
+<h3>Vox 1.31.0b4 (2026-11-24)</h3>
+<p><strong>Use a single Option key as your shortcut.</strong> Any Vox shortcut can now be one Option key on its own: Toggle dictation, Push to talk, Read aloud, Play again or Add to dictionary. Click the shortcut field in Settings › Dictation › Shortcuts or Settings › Read Aloud › Shortcuts, then press and release the key. Left and right are separate, so each Option key can have its own job, or choose Either Option in the menu beside it.</p>
+<p><strong>Hold to talk, tap for the rest.</strong> With Push to talk on an Option key, Vox listens while you hold it. Everything else runs on a quick tap. The microphone opens as you press, so your first word is kept; a Bluetooth microphone opens a moment later, once the press is clear.</p>
+<p><strong>Your other Option shortcuts still work.</strong> Typing ⌥E or Option-clicking still goes to the app in front. There is no new permission to grant, and your current shortcuts stay as they are until you record a new one.</p>
+<h3>Vox 1.31.0b3 (2026-11-06)</h3>
+<p><strong>Long dictations keep up with you.</strong> When you dictated for several minutes without a stop, the waveform slowed and the words in the pill fell minutes behind your voice. Now the waveform stays smooth and your words keep pace to the end, however long you talk.</p>
+<h3>Vox 1.31.0b2 (2026-11-03)</h3>
+<p><strong>The dictation pill gets out of the way sooner.</strong> The listening pill now leaves the moment your text appears, about a third of a second earlier. Vox still puts your previous clipboard back a moment later, so a slow app never pastes the wrong thing, even when you dictate again right away.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.31.0b6/Vox-1.31.0b6.zip"
+                sparkle:edSignature="P5M25KZgrpF3jGZ3JU59nomTWTujYS38+pVQBdrrs2wJsL6/ue8+9hMXYlgBb2+vUrau/7jLcYuwfwlGbvwFDw=="
+                length="13435407"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.31.0b6/Vox-1.31.0b5-to-1.31.0b6.delta"
+                    sparkle:version="1.31.0b6"
+                    sparkle:deltaFrom="1.31.0b5"
+                    sparkle:edSignature="lpy+OtTB9WvumoffmY393I7+xlUg346UX6TPA0FG4CIifyhwfG1k0XFYXPE2vtrKSbfLwMPiG/mLsTx/9JowBg=="
+                    length="797450"
+                    type="application/octet-stream" />
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.31.0b6/Vox-1.31.0b4-to-1.31.0b6.delta"
+                    sparkle:version="1.31.0b6"
+                    sparkle:deltaFrom="1.31.0b4"
+                    sparkle:edSignature="IAsWaGwntjki9GOJ7Z13kG5L696biC0N6BUyfq/Cc/W8ZrsA7Fy63zBx6XTcRyu3Cf6YCkvx211jrL00wtrVDg=="
+                    length="1236350"
+                    type="application/octet-stream" />
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.31.0b6/Vox-1.30.0-to-1.31.0b6.delta"
+                    sparkle:version="1.31.0b6"
+                    sparkle:deltaFrom="1.30.0"
+                    sparkle:edSignature="2ipRTpQjFv0mLeHc+24ihF0FunS0SOJJrGWu2/u/37loVjTUqOUCzaUN4CSWL+vcrxbE08ZfMJDZhzIYGbS3Bw=="
+                    length="1580398"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.31.0b5</title>
             <pubDate>Tue, 24 Nov 2026 22:02:04 +0000</pubDate>
             <sparkle:version>1.31.0b5</sparkle:version>
