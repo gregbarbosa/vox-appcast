@@ -5,6 +5,61 @@
         <description>Updates for Vox — read selected text aloud and dictate, on-device.</description>
         <language>en</language>
         <item>
+            <title>1.31.0b8</title>
+            <pubDate>Wed, 25 Nov 2026 19:32:08 +0000</pubDate>
+            <sparkle:version>1.31.0b8</sparkle:version>
+            <sparkle:shortVersionString>1.31.0b8</sparkle:shortVersionString>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h3>Vox 1.31.0b8 (2026-11-25)</h3>
+<p><strong>Less waiting on "Preparing the model…" after you open Vox.</strong> When Vox keeps the dictation model loaded, it now checks the model about once an hour while you're not using it, and prepares it again if macOS has deleted it. Before, your next launch did that work while you waited. You can still see the wait after a macOS update, or if macOS deletes the model shortly before you quit Vox.</p>
+<h3>Vox 1.31.0b7 (2026-11-24)</h3>
+<p><strong>More keys can be a shortcut on their own.</strong> Any Vox shortcut can now be one Control, Shift, Command or fn key, just like Option. Click the shortcut field in Settings › Dictation › Shortcuts or Settings › Read Aloud › Shortcuts, then press and release the key. Vox shows which side you pressed, and the menu beside it changes it to Left, Right or Either.</p>
+<p><strong>Your other shortcuts still work.</strong> ⌘C, ⌘Tab, capital letters and other key combinations go to the app in front as before, and Vox doesn't act on them.</p>
+<p><strong>A note when a key has another job.</strong> Vox tells you when Shift could go off while you type, and when macOS may also use fn, with a link to the Keyboard settings where you can change that.</p>
+<p><strong>Shortcuts on ⌘V, ⌘C or Return are more reliable.</strong> Push to talk keeps working on these keys after Vox pastes, copies or presses Return for you. If Vox can't get a shortcut back, Settings shows it.</p>
+<h3>Vox 1.31.0b6 (2026-11-24)</h3>
+<p><strong>Check for Updates comes to the front.</strong> When you choose Check for Updates in the menu bar or in Settings, the window now opens on top of your other apps, and you no longer have to look for it behind them.</p>
+<h3>Vox 1.31.0b5 (2026-11-24)</h3>
+<p><strong>Shortcuts that can't get in the way of typing.</strong> When you set a Vox shortcut, the field now refuses a key that you type with, such as S, Space, an arrow or ⇧A, and tells you what to add. F1 to F20 still work on their own.</p>
+<p><strong>A heads-up before you take over a familiar shortcut.</strong> You can now record shortcuts such as ⌘Space or ⌘C. Vox tells you when macOS or most apps already use one, and you decide. While the field waits for your keys, macOS shortcuts pause, so nothing opens by accident.</p>
+<p><strong>Nothing you set has changed.</strong> Your current shortcuts stay as they are. If one of them is a key that you type with, you see a short note under it.</p>
+<h3>Vox 1.31.0b4 (2026-11-24)</h3>
+<p><strong>Use a single Option key as your shortcut.</strong> Any Vox shortcut can now be one Option key on its own: Toggle dictation, Push to talk, Read aloud, Play again or Add to dictionary. Click the shortcut field in Settings › Dictation › Shortcuts or Settings › Read Aloud › Shortcuts, then press and release the key. Left and right are separate, so each Option key can have its own job, or choose Either Option in the menu beside it.</p>
+<p><strong>Hold to talk, tap for the rest.</strong> With Push to talk on an Option key, Vox listens while you hold it. Everything else runs on a quick tap. The microphone opens as you press, so your first word is kept; a Bluetooth microphone opens a moment later, once the press is clear.</p>
+<p><strong>Your other Option shortcuts still work.</strong> Typing ⌥E or Option-clicking still goes to the app in front. There is no new permission to grant, and your current shortcuts stay as they are until you record a new one.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.31.0b8/Vox-1.31.0b8.zip"
+                sparkle:edSignature="YXud3fC+7a+NCM/Lw9jhD+0I6rMoQT/h++d9arxaI/9e03OmNcIspH4XTVeSdghPQiagVzOYi13TEv75B14PBw=="
+                length="13447090"
+                type="application/octet-stream" />
+            <sparkle:deltas>
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.31.0b8/Vox-1.31.0b7-to-1.31.0b8.delta"
+                    sparkle:version="1.31.0b8"
+                    sparkle:deltaFrom="1.31.0b7"
+                    sparkle:edSignature="4vbSLTmm/0W6Ygwm8rxkUzaImHlf5Vge/fXes+yLXVlO+lD3VlJ9ucQPTitSN3VT459TbkB7RIDQuUc3Ygg3Bg=="
+                    length="1105890"
+                    type="application/octet-stream" />
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.31.0b8/Vox-1.31.0b6-to-1.31.0b8.delta"
+                    sparkle:version="1.31.0b8"
+                    sparkle:deltaFrom="1.31.0b6"
+                    sparkle:edSignature="VaNrl+IYupQFviuKT96N/CFO1RdrkwD2ojqV7ITU/WCrgtrLr4ixBczCu/v8/0xcy5HBcYKpGTiR26+x6BNECw=="
+                    length="1204122"
+                    type="application/octet-stream" />
+                <enclosure
+                    url="https://github.com/gregbarbosa/vox-appcast/releases/download/v1.31.0b8/Vox-1.30.0-to-1.31.0b8.delta"
+                    sparkle:version="1.31.0b8"
+                    sparkle:deltaFrom="1.30.0"
+                    sparkle:edSignature="z08OPPRXscCy6tur7iY4TtWZ/hQn3AgLJfOrE3HhvgrMzREUV5MCJjbkcCuwiVdcekEUg9ysgZTAOmUhRBnSAQ=="
+                    length="1618494"
+                    type="application/octet-stream" />
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.31.0b7</title>
             <pubDate>Wed, 25 Nov 2026 01:20:30 +0000</pubDate>
             <sparkle:version>1.31.0b7</sparkle:version>
